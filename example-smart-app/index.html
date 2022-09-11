@@ -6,9 +6,6 @@
     <title>Joe's Example-SMART-App</title>
 
     <link rel='stylesheet' type='text/css' href='./src/css/example-smart-app.css'>
-    
-    <script type="application/javascript">document.interestCohort = null;</script>
-        
     <!--
       Temporarily disable cerner-smart-embeddable-lib
     <link rel='stylesheet' type='text/css' href='./lib/css/cerner-smart-embeddable-lib-1.0.0.min.css'>
@@ -69,6 +66,7 @@
         </tr>
       </table>
     </div>
+    <div><H2>Welcome to the Index Page which redirects from Cerner</H2></div>
     <!-- Required JS files to enable this page to embed within an MPage -->
     <!--
       Temporarily disable cerner-smart-embeddable-lib
@@ -77,10 +75,11 @@
     -->
 
     <!-- Application-level javascript-->
-    <script src='./src/js/example-smart-app.js'></script>
+    <script src='./src/js/bpadmani21-example-smart-app.js'></script>
 
     <!-- FHIR Client JS Library -->
-    <script src='./lib/js/fhir-client-v0.1.12.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/fhirclient/build/fhir-client.js'></script>
+    <!-- <script src='./lib/js/fhir-client-v0.1.12.js'></script> -->
 
     <!-- Prevent session bleed caused by single threaded embedded browser and sessionStorage API -->
     <!-- https://github.com/cerner/fhir-client-cerner-additions -->
